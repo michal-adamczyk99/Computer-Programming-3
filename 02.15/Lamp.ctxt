@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Lamp
+comment1.params=
+comment1.target=void\ switchOn()
+comment2.params=
+comment2.target=void\ switchOff()
+comment3.params=
+comment3.target=void\ showStatus()
+numComments=4
