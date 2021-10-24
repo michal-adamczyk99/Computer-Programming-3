@@ -5,11 +5,15 @@ public class cinemaTicket {
     int seat;
     double price;
     
-    cinemaTicket(String title, int row, int seat, double price) {
+    cinemaTicket(String title, int row, int seat) {
         this.filmTitle = title;
         this.row = row;
         this.seat = seat;
-        this.price = price;
+        if (this.row<=2) {
+            this.price = 10;
+        } else {
+            this.price = 25;
+        }
     }
     
     void displayTicketInfo() {
@@ -17,8 +21,9 @@ public class cinemaTicket {
     }
     
     public static void main(String[] args) {
-        cinemaTicket cinemaTicket1 = new cinemaTicket("film1", 2, 3, 20.50);
-        cinemaTicket cinemaTicket2 = new cinemaTicket("film2", 1, 4, 19.20);
+        cinemaTicket.cinemaName = "Morning Star Cinema";
+        cinemaTicket cinemaTicket1 = new cinemaTicket("Gladiator", 2, 3);
+        cinemaTicket cinemaTicket2 = new cinemaTicket("Gladiator", 7, 4);
         
         cinemaTicket1.displayTicketInfo();
         cinemaTicket2.displayTicketInfo();
