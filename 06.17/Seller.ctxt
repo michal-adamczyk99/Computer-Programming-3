@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Seller
+comment1.params=companyName
+comment1.target=void\ setCompanyName(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getCompanyName()
+comment3.params=companyName
+comment3.target=Seller(java.lang.String)
+comment4.params=product
+comment4.target=void\ addProduct(Product)
+comment5.params=product\ customer
+comment5.target=void\ sell(Product,\ Customer)
+numComments=6

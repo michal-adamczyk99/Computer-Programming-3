@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Customer
+comment1.params=name
+comment1.target=void\ setName(java.lang.String)
+comment2.params=surname
+comment2.target=void\ setSurname(java.lang.String)
+comment3.params=yearOfBirth
+comment3.target=void\ setYearOfBirth(int)
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment5.params=
+comment5.target=java.lang.String\ getSurname()
+comment6.params=
+comment6.target=int\ getYearOfBirth()
+comment7.params=name\ surname\ yearOfBirth
+comment7.target=Customer(java.lang.String,\ java.lang.String,\ int)
+comment8.params=product\ seller
+comment8.target=void\ buy(Product,\ Seller)
+numComments=9
