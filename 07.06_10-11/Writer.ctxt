@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Writer
+comment1.params=name\ surname\ yearOfBirth
+comment1.target=Writer(java.lang.String,\ java.lang.String,\ int)
+comment2.params=book
+comment2.target=void\ addBook(Book)
+comment3.params=
+comment3.target=java.util.ArrayList\ getBooks()
+comment4.params=
+comment4.target=int\ countBooks()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
