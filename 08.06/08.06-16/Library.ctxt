@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Library
+comment1.params=name
+comment1.target=Library(java.lang.String)
+comment2.params=book
+comment2.target=void\ addBook(Book)
+comment3.params=
+comment3.target=java.util.ArrayList\ getBooks()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
